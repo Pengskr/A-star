@@ -9,7 +9,7 @@ columns = 27;
 % 起点、终点、障碍物
 start_node = [2, 3];
 target_node = [23, 23];
-obs_num = 250;   % 障碍物数量
+obs_num = 250;  % 障碍物数量
 obs = [0, 0;];  % 防止ismember函数中和非空的obs比较
 % 随机生成障碍物
 i = 0;

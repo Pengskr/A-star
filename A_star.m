@@ -9,7 +9,18 @@ columns = 27;
 % 起点、终点、障碍物
 start_node = [2, 3];
 target_node = [23, 23];
-obs = [4, 2;4, 3;4, 4;5, 6;22, 21;10, 11; 10, 12;10, 13; 10, 7;22, 23];
+obs_num = 250;   % 障碍物数量
+obs = [0, 0;];  % 防止ismember函数中和非空的obs比较
+% 随机生成障碍物
+i = 0;
+while i < obs_num
+    node = [randi(columns), randi(rows)];
+    if ~ismember(node, obs, "rows") && all(node ~= start_node) && all(node ~= target_node)
+        obs = [obs; node];
+        i = i + 1;
+    end
+end
+obs(1, :) = []; % 去掉(0, 0)障碍物
 
 % 绘制栅格
 for i = 0 : rows

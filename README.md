@@ -1,8 +1,10 @@
 # 基于Matlab实现A*算法
 
+A*算法最初发表于1968年，由Stanford研究院的Peter Hart, Nils Nilsson以及Bertram Raphael发表。它可以被认为是Dijkstra算法的扩展。
+
 ## 参考
 
-1. https://paul.pub/a-star-algorithm/
+[1] https://paul.pub/a-star-algorithm/
 
 * 初始化open_set和close_set；
 * 将起点加入open_set中，并设置优先级为0（优先级最高）；
@@ -20,7 +22,7 @@
                 * 计算节点m的优先级
                 * 将节点m加入open_set中
 
-2. https://blog.csdn.net/hitwhylz/article/details/23089415
+[2] https://blog.csdn.net/hitwhylz/article/details/23089415
 * A. 把起点加入 open list 。
 * B. 重复如下过程：
     * a. 遍历 open list ，查找 F 值最小的节点，把它作为当前要处理的节点。

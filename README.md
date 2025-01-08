@@ -68,6 +68,8 @@ H(n)是节点n到终点的预估距离，这也就是A*算法的**启发函数**
 原文链接：https://blog.csdn.net/hopeping128/article/details/78960326 （链接中含动图说明）
 
 ## 文件说明
-|--A_star_Matlab 基于栅格地图的A*算法的Matlab实现  
-参考：[B站 小黎的Ally：路径规划与轨迹跟踪系列算法学习_第4讲_A*算法](https://www.bilibili.com/video/BV1Jt4y1z7Ry?spm_id_from=333.788.recommend_more_video.2&vd_source=be5bd51fafff7d21180e251563899e5e%3E)
+|--A_star_Matlab 基于栅格地图的A_star算法的Matlab实现  
+参考：[B站 小黎的Ally：路径规划与轨迹跟踪系列算法学习_第4讲_A*算法](https://www.bilibili.com/video/BV1Jt4y1z7Ry?spm_id_from=333.788.recommend_more_video.2&vd_source=be5bd51fafff7d21180e251563899e5e%3E)  
+|--- A_star_python.ipynb 基于栅格地图的A_star算法的python实现(将原作者的python文件转为ipynb)  
+参考：[Github: zhm-real/PathPlanning](https://github.com/zhm-real/PathPlanning)  
 ## 其他参考
